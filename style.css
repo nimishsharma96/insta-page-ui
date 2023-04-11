@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    margin: 50px;
+    max-width: 1500px;
+    max-height: 800px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/* <!-- ================================left Side Starts ===============================================--> */
+
+
+.container .left-side {
+    position: relative;
+    width: 40%;
+    /* padding: 30px; */
+    background-color: black;
+    padding: 20px;    
+}
+.insta-text{
+    max-width: 101px;
+}
+.List-item{
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    /* padding: 20px; */
+    align-items: center;
+    margin-top: 20px;
+}
+.list i{
+    
+    padding-right: 15px;
+    
+}
+.list img{
+   
+    
+    border-radius: 100%;
+    width: 18px;
+
+}
+.list01{
+    display: flex;
+    flex-direction: row;
+    color: azure;
+    /* padding: 20px; */
+    align-items: center;
+    margin-top: 350px;
+}
+.list01 i{
+    
+    padding-right: 15px;
+    
+}
+.boy-img{
+    border: 30px solid greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- ================================middle Side Starts ===============================================--> */
+
+
+.container .middle-side {
+    position: relative;
+    width: 35%;
+    /* padding: 30px; */
+    background-color: black;
+}
+.status{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.status-img{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: aliceblue;
+}
+.status-img img{
+    border: 2px solid rgba(240, 17, 158, 0.685) ;
+    border-radius: 100%;
+    width: 55px;
+}
+.status-img h5{
+    font-size: .4rem ;
+    margin-top: 5px;
+}
+.opened-imagedp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.opened-imagedp .imgplus-text{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+/* .opened-imagedp .imgplus-text .profile-name{
+    display: flex;
+} */
+
+.opened-imagedp .imgplus-text .profile-image img{
+    width: 30px;
+    border: 1px solid rgba(240, 17, 158, 0.685) ;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.tajmahalimg img{
+    border: 20px solid pink ;
+    width: 100%;
+}
+.likebutton{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.leftlikebutton i{
+    margin-right: 10px;
+    
+}
+.leftlikebutton .heart{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- ================================right Side Starts ===============================================--> */
+
+
+.container .right-side {
+    position: relative;
+    width: 30%;
+    /* padding: 30px; */
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+#main-image{
+    width: 50px;
+}
+
+
